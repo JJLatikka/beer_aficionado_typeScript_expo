@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "BAF",
+    "slug": "BAF",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_BAF.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/logo_BAF.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4242E7"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_BAF.png",
+        "backgroundColor": "#4242E7"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "****"
+        }
+      },
+      "package": "jjlatikka.BAF"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "****"
+      }
+    }
+  }
+}
